@@ -1,0 +1,22 @@
+body {
+  background-color: #2a2829;
+  display: flex;
+}
+
+.box{
+    
+}
+
+.custom-img {
+  width: 100px;
+}
+
+.custom-logo {
+  width: 200px;
+}
+
+.header-nav {
+  display: flex;
+  margin: 5em 5em 0em 5em;
+  justify-content: space-between;
+}
