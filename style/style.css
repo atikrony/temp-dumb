@@ -92,8 +92,22 @@ li:hover::after {
 
 .main-body {
   justify-content: center;
-  margin: 5em;
+  margin: -5em 5em;
   height: 40em;
+}
+
+.description-section {
+  text-align: center;
+  margin: 2em auto;
+  max-width: 600px;
+  padding: 1em;
+}
+
+.description-section p {
+  color: white;
+  font-family: Silkscreen;
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 /* ############################ */
 /* .rotate-image {
@@ -129,7 +143,7 @@ li:hover::after {
   transition: transform 3s ease;
   animation: rotateCircle 8s linear infinite;
   outline: 5px solid rgb(255, 0, 0, 0);
-  transition: outline 5s, box-shadow 3s ease-in;
+  transition: outline 1s, box-shadow 0.5s ease-in;
 }
 
 .rotate-image:hover {
@@ -147,12 +161,41 @@ li:hover::after {
   }
 }
 
-.top-part {
+.description-section {
+  text-align: center;
+  margin: -8em auto 5em;
+  max-width: 800px;
+  padding: 1em;
+}
+.description-section p {
   color: white;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1em;
+  font-family: Silkscreen;
+  font-size: 1rem;
+  line-height: 1.8;
 }
 
-.div1 {
+.top-part {
+  padding: 3em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
 }
+
+.container {
+  background: #222;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+  border-radius: 8px;
+  font-family: Silkscreen;
+  font-size: 1.1em;
+}
+
+
+
